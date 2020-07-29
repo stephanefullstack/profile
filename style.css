@@ -1,0 +1,81 @@
+body {
+  background-color: #162447;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  align-self: center;
+  border-radius: 50%;
+}
+
+.button_pink {
+  background: #e43f5a;
+  padding: 2%;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.button_pink:hover {
+  border: 5px solid #e43f5a;
+  background: #0f4c75;
+  color: #bbe1fa;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #1b1b2f;
+  color: #bbe1fa;
+  margin: 2% 10% 5% 10%;
+  border-radius: 10px;
+  padding: 7% 5%;
+  text-align: center;
+  box-shadow: 0px 0px 10px black;
+}
+
+.container {
+  background-color: #162447;
+  margin: 2% 10%;
+}
+
+.card {
+  background-color: #1b1b2f;
+  color: #bbe1fa;
+  margin: 3% 10%;
+  border-radius: 5px;
+  padding: 2%;
+  box-shadow: 0px 0px 10px black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.footer {
+    width: 2px auto;
+    text-align: center;
+}
+
+.social {
+  font-size: 150%;
+}
+
+@media (min-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .header {
+    margin: 2% 20%;
+  }
+
+  .card {
+    margin: 3% 20%;
+  }
+}
