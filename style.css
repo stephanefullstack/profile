@@ -26,6 +26,10 @@ img {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   background-color: #1b1b2f;
   color: #bbe1fa;
